@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+* {margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;}
+
+body {background-color: #ADC7B5;}
+
+.ppal {width: 100%;
+	  max-width: 1400px;
+	  height: 750px;
+	  background-image: url(../img/fondo.jpg);
+	  margin-left: auto;
+	  margin-right: auto;}
+
+.flat{width: 100%;
+	  max-width: 1400px;
+	  height: 750px
+	  background-color: #321B3F;
+	  margin-left: auto;
+	  margin-right: auto;}
+
+header {width: 100%;
+		height: 87px;
+		background-color: #220D29;
+		opacity: 85%;}
+
+.logo {padding-left: 1.5%;
+	   padding-top: 10px;
+	   opacity: none;}
+
+nav {width: 20%;
+	 height: 87px;
+	 float: right;
+	 padding-top: 50px;}
+
+nav li {display: inline;
+		list-style: none;
+		word-spacing: 15px;}
+
+	nav a {color: #ADC7B5;
+		   font-family: 'Neucha', cursive;
+		   font-size: 22px;
+		   text-decoration: none;}
+
+.fondo {width: 100%;
+	  max-width: 600px;
+	  height: 125px;
+	  margin-top: 230px;
+	  margin-bottom: 275px;
+	  margin-left: 50%;}
+
+.descripcionppal {width: 100%;
+			  height: 158px;
+			  float: right;
+			  background-color: #ADC7B5;
+			  opacity: 80%;}
+
+.textoppal {font-size: 40px;
+			font-family: 'Amatic SC', cursive;
+			color: #321B3F;
+			padding-right: 2%;
+			text-align: right;}
+
+footer {width: 100%;
+		height: 35px;
+		background-color: #220D29;}
+
+.tagline {width: 32%;
+		height: 100%;;
+		float: left;
+		padding-left: 1%;
+		padding-top: 10px;}
+
+.mid {width: 25%;
+	  height:100%;
+	  float: left;
+	  padding-left: 15%;
+	  padding-top: 10px;}
+
+	.autor {color: #ADC7B5;
+			font-size: 15px;
+			font-family: 'Neucha', cursive;
+			display: inline;
+			text-decoration: none;}
+
+.redes {width: 20%;
+		height: 100%;
+		float: right;}
+
+	.ig {display: inline;
+	 float: right;
+	 padding-right: 15%;}
+
+	.tw {display: inline;
+	 float: right;
+	 padding-right: 15px;}
+
+	.fb {display: inline;
+	 float: right;
+	 padding-right: 15px;}
+
+.fondosvcs {width: 100%;
+	     height: 628px;
+	     background-color: #321B3F;}
+
+.titular {width: 100%;
+	 	  height: 280px;}
+
+.titlesvcs {float: left;
+		  padding-left: 37%;
+		  padding-top: 10px;
+		  font-family:'Neucha', cursive;
+		  font-size: 50px;
+		  color: #ADC7B5;
+		  text-align: center;}
+
+.textsvcs {float: left;
+		  padding-left: 29%;
+		  padding-top: 20px;
+		  width: 69%;
+		  font-family:'Amatic SC', cursive;
+		  font-size: 20px;
+		  color: #ADC7B5;
+		  text-align: center;}
+
+.svcs1 {float: left;
+			 width: 15%;
+			 margin-left: 22%;
+			 margin-bottom: 40px;
+			 font-family:'Amatic SC', cursive;
+			 font-size: 17px;
+			 color: #ADC7B5;
+			 text-align: center;}
+
+.svcs2 {float: left;
+			 width: 15%;
+			 margin-left: 70px;
+			 margin-bottom: 40px;
+			 font-family:'Amatic SC', cursive;
+			 font-size: 17px;
+			 color: #ADC7B5;
+			 text-align: center;}
+
+.svcs3 {float: left;
+			 width: 15%;
+			 margin-left: 70px;
+			 margin-bottom: 40px;
+			 font-family:'Amatic SC', cursive;
+			 font-size: 17px;
+			 color: #ADC7B5;
+			 text-align: center;}
+
+.fondontrs {width: 100%;
+	     height: 628px;
+	     background-color: #321B3F;}
+
+.titular2 {width: 100%;
+	 	  height: 420px;}
+
+.titulo3 {float: left;
+		  padding-left: 40%;
+		  padding-top: 10px;	
+		  font-family:'Neucha', cursive;
+		  font-size: 50px;
+		  color: #ADC7B5;
+		  text-align: center;}
+
+.nosotros {float: left;
+		  padding-left: 30%;
+		  padding-top: 20px;
+		  width: 70%;
+		  font-family:'Amatic SC', cursive;
+		  font-size: 20px;
+		  color: #ADC7B5;
+		  text-align: center;}
+
+.galeria {width: 100%;
+	      height: 208px;}
+
+.imagenes {padding-left:6.5%;}
+
+.contacto {width: 100%;
+	     height: 310px;
+	     background-color: #321B3F;}
+
+.tittlecntc {float: left;
+			 margin-left: 38%;
+			 padding-top: 10px;
+			 font-size: 50px;
+			 font-family:'Neucha', cursive;
+			 font-weight: bold;
+			 color: #ADC7B5;
+			 text-align: right;}
+
+.textcntc {float: left;
+		  padding-left: 34%;
+		  padding-top: 20px;
+		  width: 66%;
+		  font-family:'Amatic SC', cursive;
+		  font-size: 22px;
+		  color: #ADC7B5;
+		  text-align: center;}
+
+.fondofo {width: 100%;
+	     height: 318px;
+	     background-color: #321B3F;}
+
+.formulario{float: left;
+			position: relative;
+			left: 44.3%;
+			height: 305px;
+			width: 160px;
+			background-color: #ADC7B5;
+			border-radius: 10px;}
+
+ .tag {font-family:'Amatic SC', cursive;
+ 	   font-size: 17px;
+ 	   text-align: center;
+ 	   color: #321B3F;}
+
+.enviar{float: left;
+		width: 100%;
+		height: 35px;
+		background-color: #ADC7B5;
+		border-radius: 5px;
+		color: #321B3F;
+		font-family:'Neucha', cursive;
+		font-size: 18px;}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Segundo Parcial</title>
+
+	<link href="css/estilos1.css" rel="stylesheet" type="text/css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/responsiveslides.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="js/responsiveslides.js"></script>
+	
+</head>
+
+<body>
+
+<main>
+
+<div class="grid-container">
+  <div class="Header">
+		<h1 id="titular" class="animate__animated animate__bounce animate__slower"> OBTÉN TU 30% DE DESCUENTO </h1>
+		<br>
+		<h4>En el servicio de fumigación más reconocido de Buenos Aires</h4>
+  </div>
+  <div class="Izquierda">
+	  	<div class="logo"> 
+			<a href="web/Index.html" target="blank_">
+				<img src="img/logo.png" class="animacion1">
+			</a>
+	  	</div>
+	  	<div class="galeria">
+	  		<ul class="rslides">
+  				 <li><img src="img/1.jpg" alt=""></li>
+			</ul>
+			<script>
+  				$(function() { $(".rslides").responsiveSlides(); });
+			</script>
+	  	</div>
+
+  </div>
+
+  <div class="Derecha">
+
+  	<div id="cont_texto">
+      <h1>Ingresá tus datos para que nos comuniquemos</h1>
+      <form id="form" action="enviar.php" method="post">
+       
+        <label for="nombre">Nombre<br /><input type="text" name="nombre" id="nombre" required autofocus/>
+        </label>
+          <br />
+          <label for="apellido">Apellido<br /><input type="text" name="apellido" id="apellido" />
+          </label>
+          <br />
+          <label for="email">Email<br /><input type="email" name="email" id="email" required />
+          </label>
+          <br />
+          <label>Teléfono</label>
+          <input type="tel" >
+          <br>
+          <label for="mensaje">Que servicio deseas contratar? <br />
+          </label>
+          <br />
+          <textarea name="msj" rows="5" id="mensaje"></textarea>
+          <input name="Submit" type="submit" value="Enviar">
+  	  </form>
+
+</div>
+  </div>
+
+  <div class="Bajo">
+  	<h2> El 30% de descuento se encuentra aplicable a cualquiera de nuestros servicios de control de plagas y fumigación. 
+  		<br>
+  	Promoción valida hasta el 26 de Diciembre de 2020, solamente en Ciudad Autónoma de Buenos Aires y Gran Buenos Aires.
+    </h2>
+  </div>
+
+</div>
+
+</main>
+
+<div class="footer">
+	<div class="link">
+		<a href="micrositio.html" target="blank_" style="text-decoration:none">
+			<h3>Franco Lugones</h3>
+		</a>
+	</div> 
+	<div class="insta">
+		<a href="https://www.instagram.com/" target="blank_" style="text-decoration:none">
+			<h5>Seguinos en Instagram</h5>
+			<img src="img/ig.png" class="ig">
+		</a>
+	</div>
+</div>
+
+</body>
+
+</html>
+
